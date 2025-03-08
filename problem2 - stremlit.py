@@ -4,7 +4,7 @@ import seaborn as sns
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv("C:/Users/Administrador/Downloads/university_student_dashboard_data.csv")
+df = pd.read_csv("university_student_dashboard_data.csv")
 
 st.set_page_config(page_title="Dashboard", layout="wide", initial_sidebar_state="expanded")
 
